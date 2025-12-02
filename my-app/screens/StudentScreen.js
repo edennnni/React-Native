@@ -2,10 +2,8 @@ import React from "react";
 import { View ,Text,StyleSheet} from "react-native-web";
 import StudentDetail from "../components/StudentDetail";
 
-
 const StudentScreen =()=> {
     return(
-
 
         <View>
             <Text style={styles.text}>Student scrren</Text>
@@ -15,11 +13,9 @@ const StudentScreen =()=> {
             ></StudentDetail>
 
 
-
             <StudentDetail name="Edeni"
              image={require("../assets/person1.jpg")}
             >
-
 
             </StudentDetail>
             <StudentDetail name ="Robert"
@@ -27,19 +23,14 @@ const StudentScreen =()=> {
             
             ></StudentDetail>
 
-
         </View>
 
-
     )
-
 
 }
 
 
-
 const styles = StyleSheet.create({
-
 
     text:{
         textAlign:'center',
@@ -47,5 +38,11 @@ const styles = StyleSheet.create({
         marginVertical:20
     }
 
-
 })
+
+
+
+
+export default StudentScreen;
+
+
