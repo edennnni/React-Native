@@ -11,11 +11,11 @@ const BottomTabNavigator = () => {
     <Tab.Navigator
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: "white",
+        tabBarActiveTintColor: "#00BCD4",
         tabBarInactiveTintColor: "lightgray",
         tabBarShowLabel: true,
         tabBarStyle: {
-          backgroundColor: "#FF6347",
+          backgroundColor: "#2C3E50",
         },
         tabBarLabelStyle: {
           fontSize: 12,
