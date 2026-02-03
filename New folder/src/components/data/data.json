@@ -1,0 +1,64 @@
+{
+    "products": [
+        {
+            "id": "prod_001",
+            "name": "Smartphone X Pro",
+            "slug": "smartphone-x-pro",
+            "price": 799.99,
+            "currency": "USD",
+            "description": "High-performance smartphone with OLED display, multi-core processor, and long-lasting battery.",
+            "image": "https://example.com/images/smartphone-x-pro.jpg",
+            "rating": 4.7,
+            "reviews": 12543,
+            "inStock": true,
+            "stockQuantity": 48,
+            "categories": ["electronics", "mobile"],
+            "features": [
+                "6.5\" OLED display",
+                "128GB storage",
+                "48MP triple camera",
+                "Fast charging"
+            ]
+        },
+        {
+            "id": "prod_002",
+            "name": "Wireless Earbuds Pro",
+            "slug": "wireless-earbuds-pro",
+            "price": 149.99,
+            "currency": "USD",
+            "description": "Noise-cancelling true wireless earbuds with long battery life and crystal-clear sound.",
+            "image": "https://example.com/images/wireless-earbuds-pro.jpg",
+            "rating": 4.5,
+            "reviews": 8421,
+            "inStock": true,
+            "stockQuantity": 230,
+            "categories": ["electronics", "audio"],
+            "features": [
+                "Active Noise Cancellation",
+                "Bluetooth 5.3",
+                "30 hours total playback",
+                "Wireless charging case"
+            ]
+        },
+        {
+            "id": "prod_003",
+            "name": "4K Smart TV 55\"",
+            "slug": "4k-smart-tv-55",
+            "price": 599.0,
+            "currency": "USD",
+            "description": "55-inch 4K UHD Smart TV with HDR support and integrated streaming apps.",
+            "image": "https://example.com/images/4k-smart-tv-55.jpg",
+            "rating": 4.6,
+            "reviews": 6732,
+            "inStock": false,
+            "stockQuantity": 0,
+            "categories": ["electronics", "tv"],
+            "features": [
+                "3840 x 2160 resolution",
+                "HDR10+ support",
+                "Smart TV platform with apps",
+                "Multiple HDMI inputs"
+            ]
+        }
+    ]
+}
